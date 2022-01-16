@@ -1,18 +1,19 @@
-Enter your salary: RM2222
+Enter your salary: RM3333
 Enter your year of service: 3
 Enter your age: 20
 NO bonus 
 
 Enter your salary: RM6666
-Enter your year of service: 6
+Enter your year of service: 7
 Enter your age: 50
-Bonus is: RM111.10
+Bonus is: RM166.65
 
-Enter your salary: RM3333
+Enter your salary: RM4444
 Enter your year of service: 5
-Enter your age: 38
+Enter your age: 40
 NO bonus
 
-The largest salary is RM6666.00
-The oldest is 50
-The youngest is 20
+The highest salary is RM6666.00
+The lowest salary is RM3333.00
+The oldest is 50 years old
+The youngest is 20 years old
