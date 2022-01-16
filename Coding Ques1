@@ -57,28 +57,36 @@ public class Ques1 {
 		
 		System.out.println();
 		if(salary>salary1&&salary>salary2) {
-			System.out.printf("The largest salary is RM%.2f%n" , salary);
+			System.out.printf("The highest salary is RM%.2f%n" , salary);
 		}
 		else if(salary1>salary2&&salary1>salary){
-			System.out.printf("The largest salary is RM%.2f%n" , salary1);
+			System.out.printf("The highest salary is RM%.2f%n" , salary1);
 		}else if(salary2>salary1&&salary2>salary){
-			System.out.printf("The largest salary is RM%.2f%n" , salary2);
+			System.out.printf("The highest salary is RM%.2f%n" , salary2);
+		}
+		if(salary<salary1&&salary<salary2) {
+			System.out.printf("The lowest salary is RM%.2f%n" , salary);
+		}
+		else if(salary1<salary2&&salary1<salary){
+			System.out.printf("The lowest salary is RM%.2f%n" , salary1);
+		}else if(salary2<salary1&&salary2<salary){
+			System.out.printf("The lowest salary is RM%.2f%n" , salary2);
 		}
 		if(age>age1&&age>age2) {
-			System.out.println("The oldest is " + age);
+			System.out.println("The oldest is " + age + " years old");
 		}
 		else if(age1>age&&age1>age2){
-			System.out.println("The oldest is " + age1);
+			System.out.println("The oldest is " + age1 + " years old");
 		}else if(age2>age&&age2>age1){
-			System.out.println("The oldest is " + age2);
+			System.out.println("The oldest is " + age2 + " years old");
 	}
 		if(age<age1&&age<age2) {
-			System.out.println("The youngest is " + age);
+			System.out.println("The youngest is " + age + " years old");
 		}
 		else if(age1<age&&age1<age2){
-			System.out.println("The youngest is " + age1);
+			System.out.println("The youngest is " + age1 + " years old");
 		}else if(age2<age&&age2<age1){
-			System.out.println("The youngest is " + age2);
+			System.out.println("The youngest is " + age2 + " years old");
 	}
 	}
 }
