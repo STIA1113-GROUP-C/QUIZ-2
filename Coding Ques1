@@ -13,9 +13,11 @@ public class Ques1 {
 		double salary=sc.nextDouble();
 		System.out.print("Enter your year of service: ");
 		int year=sc.nextInt();
+		System.out.print("Enter your age: ");
+		int age=sc.nextInt();
 		if(year>5) {
 		double bonus = salary*1.05;
-			System.out.print("Bonus is: RM"+bonus);
+			System.out.println("Bonus is: RM"+bonus);
 		}else {
 			System.out.println("NO bonus ");
 		}
@@ -25,27 +27,41 @@ public class Ques1 {
 		System.out.println("Enter your year of service: ");
 		int year1=sc.nextInt();
 		
+		System.out.print("Enter your age: ");
+		int age1=sc.nextInt();
+		
 		System.out.print("Enter your salary: RM");
 		double salary2=sc.nextDouble();
 		
 		System.out.println("Enter your year of service: ");
 		int year2=sc.nextInt();
 		
+		System.out.print("Enter your age: ");
+		int age2=sc.nextInt();
+		
 		if(salary>salary1&&salary>salary2) {
-			System.out.printf("The largest salary is %.2f%n" , salary);
+			System.out.printf("The largest salary is RM%.2f%n" , salary);
 		}
 		else if(salary1>salary2&&salary1>salary){
-			System.out.printf("The largest salary is %.2f%n" , salary1);
+			System.out.printf("The largest salary is RM%.2f%n" , salary1);
 		}else if(salary2>salary1&&salary2>salary){
-			System.out.printf("The largest salary is %.2f%n" , salary2);
+			System.out.printf("The largest salary is RM%.2f%n" , salary2);
 		}
-		if(year>year1&&year>year2) {
-			System.out.println("The oldest is " + year);
+		if(age>age1&&age>age2) {
+			System.out.println("The oldest is " + age);
 		}
-		else if(year1>year&&year1>year2){
-			System.out.println("The oldest is " + year1);
-		}else if(year2>year&&year2>year1){
-			System.out.println("The oldest is " + year2);
+		else if(age1>age&&age1>age2){
+			System.out.println("The oldest is " + age1);
+		}else if(age2>age&&age2>age1){
+			System.out.println("The oldest is " + age2);
+	}
+		if(age<age1&&age<age2) {
+			System.out.println("The youngest is " + age);
+		}
+		else if(age1<age&&age1<age2){
+			System.out.println("The youngest is " + age1);
+		}else if(age2<age&&age2<age1){
+			System.out.println("The youngest is " + age2);
 	}
 	}
 }
