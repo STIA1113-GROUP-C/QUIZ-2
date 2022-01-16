@@ -15,30 +15,47 @@ public class Ques1 {
 		int year=sc.nextInt();
 		System.out.print("Enter your age: ");
 		int age=sc.nextInt();
+		
 		if(year>5) {
-		double bonus = salary*1.05;
-			System.out.println("Bonus is: RM"+bonus);
+		double bonus = salary*0.05;
+			System.out.printf("Bonus is: RM%.2f%n",bonus);
 		}else {
 			System.out.println("NO bonus ");
 		}
-		System.out.print("Enter your salary: RM");
+		System.out.print("\nEnter your salary: RM");
 		double salary1=sc.nextDouble();
 		
-		System.out.println("Enter your year of service: ");
+		System.out.print("Enter your year of service: ");
 		int year1=sc.nextInt();
 		
 		System.out.print("Enter your age: ");
 		int age1=sc.nextInt();
 		
+		if(year1>5) {
+			double bonus = salary*0.05;
+				System.out.printf("Bonus is: RM%.2f%n",bonus);
+			}else {
+				System.out.println("NO bonus");
+			}
+		System.out.println();
+
 		System.out.print("Enter your salary: RM");
 		double salary2=sc.nextDouble();
 		
-		System.out.println("Enter your year of service: ");
+		System.out.print("Enter your year of service: ");
 		int year2=sc.nextInt();
 		
 		System.out.print("Enter your age: ");
 		int age2=sc.nextInt();
+	
+		if(year2>5) {
+			double bonus = salary*0.05;
+				System.out.printf("Bonus is: RM%.2f%n",bonus);
+			}else {
+				System.out.println("NO bonus");
+			}
 		
+		System.out.println();
 		if(salary>salary1&&salary>salary2) {
 			System.out.printf("The largest salary is RM%.2f%n" , salary);
 		}
